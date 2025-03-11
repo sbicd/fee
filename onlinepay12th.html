@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+<title>ST. VINCENT BISHOP COLLEGE</title>
+<link rel="icon" type="image/png" href="./mbi1.png" sizes="24x24">
+<script type="text/javascript">
+    window.history.forward();
+    function noBack()
+    {
+        window.history.forward();
+    }
+</script>
+
+<script>
+document.onkeydown = function(){
+  switch (event.keyCode){
+        case 116 : //F5 button
+            event.returnValue = false;
+            event.keyCode = 0;
+            return false;
+        case 82 : //R button
+            if (event.ctrlKey){ 
+                event.returnValue = false;
+                event.keyCode = 0;
+                return false;
+            }
+    }
+}
+</script>
+<style>
+    body{
+        margin: 0;
+    }
+    iframe{      
+        display: block;    
+        height: 100vh;  
+        width: 100vw;      
+        border: none; 
+        background: lightyellow; 
+    }
+</style>
+</head>
+<body oncontextmenu="return false;" onLoad="noBack();" onpageshow="if (event.persisted) noBack();" onUnload="">
+    <iframe src="12th-.html"></iframe>
+</body>
+</html>

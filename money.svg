@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.281" height="34.616" viewBox="0 0 37.281 34.616">
+  <g id="_2" data-name="2" transform="translate(-0.698)">
+    <g id="Group_601" data-name="Group 601" transform="translate(-287.547 -210)">
+      <circle id="Ellipse_52" data-name="Ellipse 52" cx="17.099" cy="17.099" r="17.099" transform="translate(289.798 210)" fill="#e9eaeb"/>
+      <path id="Path_3077" data-name="Path 3077" d="M329,235.7l1.427-.952a.845.845,0,0,1,1.271.437h0a.845.845,0,0,0,1.4.33l.6-.6" transform="translate(-8.7 -5.133)" fill="#fff" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_3079" data-name="Path 3079" d="M306.2,218.825a4.7,4.7,0,1,1,7,0" transform="translate(-2.48 2)" fill="#fd3753" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_3076" data-name="Path 3076" d="M300,226.106c-2.152-2.788-6.044-3.3-6.556-2.66-.365.459.778,2.454,1.558,3.809a7.43,7.43,0,0,0-2.589,3.126,6.406,6.406,0,0,1-2.8.482c-1.089-.007-.6,3.009.4,4.915.912,1.74,6.81,5.322,7.593,5.459v5.238h2.348l1.565-3.13a21.764,21.764,0,0,0,5.478.783,18.677,18.677,0,0,0,5.461-.718l1.582,3.066h2.348l1.032-5.99a9.77,9.77,0,0,0,2.88-7.313c0-5.873-6.759-10.173-14.028-10.173a15.707,15.707,0,0,0-7.411,1.942" transform="translate(0 -2.61)" fill="#fff" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_111" data-name="Line 111" x2="1.565" transform="translate(296.042 228.216)" fill="none" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="Ellipse_51" data-name="Ellipse 51" cx="2.348" cy="2.348" r="2.348" transform="translate(302.302 225.868)" fill="#fff" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_3078" data-name="Path 3078" d="M317.348,242.7h0A2.347,2.347,0,0,1,315,240.348h0A2.347,2.347,0,0,1,317.348,238h0a2.348,2.348,0,0,1,2.348,2.348h0A2.348,2.348,0,0,1,317.348,242.7Z" transform="translate(-5.655 -5.872)" fill="#fff" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_112" data-name="Line 112" y1="10.955" x2="8.608" transform="translate(303.867 225.868)" fill="none" stroke="#3240a0" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
