@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e9eaeb;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #3240a0;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #fd3753;
+      }
+
+      .cls-6 {
+        fill: #fd3753;
+      }
+    </style>
+  </defs>
+  <g id="Group_130" data-name="Group 130" transform="translate(-638 -1250)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-1" width="90" height="90" rx="8" transform="translate(638 1250)"/>
+    <g id="Group_69" data-name="Group 69" transform="translate(665.009 1273.013)">
+      <circle id="Ellipse_19" data-name="Ellipse 19" class="cls-2" cx="19.674" cy="19.674" r="19.674" transform="translate(-7.009 34.203) rotate(-71.041)"/>
+      <path id="Path_2993" data-name="Path 2993" class="cls-3" d="M24.952,42.548V39.51a6.639,6.639,0,0,0,3.038-5.317V20.519L15.533,19l-4.862,3.95A5.389,5.389,0,0,0,9,26.9V42.548Z" transform="translate(-3.848 -5.291)"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-2" width="18.231" height="5.317" transform="translate(3.632 37.257)"/>
+      <path id="Path_2994" data-name="Path 2994" class="cls-4" d="M7,55.317V50H25.231v5.317" transform="translate(-3.368 -12.743)"/>
+      <line id="Line_62" data-name="Line 62" class="cls-5" x2="2.279" transform="translate(5.911 40.295)"/>
+      <path id="Path_2995" data-name="Path 2995" class="cls-6" d="M35.471,1H19.519A1.524,1.524,0,0,0,18,2.519V25.308l2.279,2.279H35.471a1.524,1.524,0,0,0,1.519-1.519V2.519A1.524,1.524,0,0,0,35.471,1Z" transform="translate(-6.012 -0.965)"/>
+      <path id="Path_2996" data-name="Path 2996" class="cls-4" d="M20.279,27.587H35.471a1.524,1.524,0,0,0,1.519-1.519V2.519A1.524,1.524,0,0,0,35.471,1H19.519A1.524,1.524,0,0,0,18,2.519V25.308" transform="translate(-6.012 -0.965)"/>
+      <rect id="Rectangle_53" data-name="Rectangle 53" class="cls-3" width="4.558" height="26.587" transform="translate(22.623 0.035)"/>
+      <line id="Line_63" data-name="Line 63" class="cls-4" y2="3.038" transform="translate(19.584 2.314)"/>
+      <line id="Line_64" data-name="Line 64" class="cls-4" y2="3.038" transform="translate(19.584 6.872)"/>
+      <path id="Path_2997" data-name="Path 2997" class="cls-1" d="M22.56,21.072C20.813,22.9,13.9,29.58,13.9,29.58l6.077,7.9a6.835,6.835,0,0,0,.836-6.913s3.038-3.418,3.8-4.482C26.358,23.655,24.307,19.325,22.56,21.072Z" transform="translate(-5.026 -5.692)"/>
+      <path id="Path_2998" data-name="Path 2998" class="cls-4" d="M13.9,29.58s6.913-6.761,8.66-8.508,3.8,2.583,2.127,5.014c-.76,1.063-3.8,4.482-3.8,4.482a7.036,7.036,0,0,1-.836,6.913" transform="translate(-5.026 -5.692)"/>
+    </g>
+  </g>
+</svg>

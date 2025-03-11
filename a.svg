@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e9eaeb;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        stroke: #3240a0;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke: #bcc0c4;
+      }
+
+      .cls-5 {
+        fill: #fd3753;
+      }
+
+      .cls-6 {
+        stroke: #2a5082;
+      }
+    </style>
+  </defs>
+  <g id="Group_131" data-name="Group 131" transform="translate(-1058 -1250)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-1" width="90" height="90" rx="8" transform="translate(1058 1250)"/>
+    <g id="Group_70" data-name="Group 70" transform="translate(1078 1274)">
+      <circle id="Ellipse_20" data-name="Ellipse 20" class="cls-2" cx="18.145" cy="18.145" r="18.145" transform="translate(5 5.677)"/>
+      <line id="Line_65" data-name="Line 65" class="cls-3" x1="4.032" transform="translate(8.871 16.323)"/>
+      <line id="Line_66" data-name="Line 66" class="cls-3" x1="10.484" transform="translate(0 19.548)"/>
+      <line id="Line_67" data-name="Line 67" class="cls-4" x1="10.484" transform="translate(31.452 5.032)"/>
+      <line id="Line_68" data-name="Line 68" class="cls-4" x1="14.516" transform="translate(22.581 38.097)"/>
+      <line id="Line_69" data-name="Line 69" class="cls-4" x1="14.516" transform="translate(3.226 1)"/>
+      <line id="Line_70" data-name="Line 70" class="cls-3" x2="1.613" transform="translate(5.645 16.323)"/>
+      <line id="Line_71" data-name="Line 71" class="cls-4" x1="1.613" transform="translate(28.226 5.032)"/>
+      <line id="Line_72" data-name="Line 72" class="cls-4" x1="1.613" transform="translate(25 5.032)"/>
+      <line id="Line_73" data-name="Line 73" class="cls-4" x1="1.613" transform="translate(21.774 5.032)"/>
+      <rect id="Rectangle_54" data-name="Rectangle 54" class="cls-1" width="36.29" height="20.968" transform="translate(13.71 11.484)"/>
+      <path id="Path_2999" data-name="Path 2999" class="cls-3" d="M17,27.71V14H53.29V34.968H17V30.129" transform="translate(-3.29 -2.516)"/>
+      <path id="Path_3000" data-name="Path 3000" class="cls-5" d="M47.806,31.9H24.419A2.376,2.376,0,0,0,22,29.484h0V21.419h0A2.376,2.376,0,0,0,24.419,19H47.806a2.376,2.376,0,0,0,2.419,2.419v8.065h0A2.376,2.376,0,0,0,47.806,31.9Z" transform="translate(-4.258 -3.484)"/>
+      <line id="Line_74" data-name="Line 74" class="cls-6" x2="1.613" transform="translate(22.581 21.968)"/>
+      <line id="Line_75" data-name="Line 75" class="cls-6" x2="1.613" transform="translate(39.516 21.968)"/>
+      <path id="Path_3001" data-name="Path 3001" class="cls-7" d="M35,26.032a3.649,3.649,0,1,1,7.258,0,3.649,3.649,0,1,1-7.258,0Z" transform="translate(-6.774 -4.065)"/>
+      <line id="Line_76" data-name="Line 76" class="cls-3" x1="10.484" transform="translate(5.645 25.194)"/>
+    </g>
+  </g>
+</svg>

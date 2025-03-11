@@ -1,0 +1,55 @@
+<svg id="Group_47" data-name="Group 47" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 32.934">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9eaeb;
+      }
+
+      .cls-2, .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #bcc0c4;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke: #3240a0;
+      }
+
+      .cls-5 {
+        fill: #fd3753;
+      }
+
+      .cls-7 {
+        stroke: #fd3753;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="16.467" cy="16.467" r="16.467"/>
+  <line id="Line_14" data-name="Line 14" class="cls-2" y2="3.407" transform="translate(34.297 5.678)"/>
+  <line id="Line_15" data-name="Line 15" class="cls-2" x1="3.407" transform="translate(32.593 7.382)"/>
+  <line id="Line_16" data-name="Line 16" class="cls-2" y2="3.407" transform="translate(4.202 20.442)"/>
+  <line id="Line_17" data-name="Line 17" class="cls-2" x1="3.407" transform="translate(2.498 22.145)"/>
+  <path id="Path_2934" data-name="Path 2934" class="cls-3" d="M29.545,3H9.671A2.278,2.278,0,0,0,7.4,5.271V16.06a2.278,2.278,0,0,0,2.271,2.271H29.545a2.278,2.278,0,0,0,2.271-2.271V5.271A2.278,2.278,0,0,0,29.545,3Z" transform="translate(-3.198 -1.297)"/>
+  <path id="Path_2935" data-name="Path 2935" class="cls-4" d="M31.816,13.221V5.271A2.278,2.278,0,0,0,29.545,3H9.671A2.278,2.278,0,0,0,7.4,5.271V16.06a2.278,2.278,0,0,0,2.271,2.271h1.7" transform="translate(-3.198 -1.297)"/>
+  <line id="Line_18" data-name="Line 18" class="cls-4" x1="24.416" transform="translate(4.202 4.543)"/>
+  <line id="Line_19" data-name="Line 19" class="cls-4" x1="24.416" transform="translate(4.202 7.95)"/>
+  <path id="Path_2936" data-name="Path 2936" class="cls-5" d="M18.671,23A2.278,2.278,0,0,0,16.4,25.271V37.2a2.278,2.278,0,0,0,2.271,2.271H38.545A2.278,2.278,0,0,0,40.816,37.2V25.271A2.278,2.278,0,0,0,38.545,23Z" transform="translate(-7.088 -9.94)"/>
+  <line id="Line_20" data-name="Line 20" class="cls-4" x2="3.407" transform="translate(12.719 25.552)"/>
+  <line id="Line_21" data-name="Line 21" class="cls-4" x2="2.839" transform="translate(17.83 25.552)"/>
+  <line id="Line_22" data-name="Line 22" class="cls-4" x2="3.407" transform="translate(22.372 25.552)"/>
+  <line id="Line_23" data-name="Line 23" class="cls-4" x2="3.407" transform="translate(27.483 25.552)"/>
+  <path id="Path_2937" data-name="Path 2937" class="cls-6" d="M50.943,30.987a2.012,2.012,0,0,1-1.987,1.987h-.568A2.012,2.012,0,0,1,46.4,30.987h0A2.012,2.012,0,0,1,48.387,29h.568a2.012,2.012,0,0,1,1.987,1.987Z" transform="translate(-20.053 -12.533)"/>
+  <line id="Line_24" data-name="Line 24" class="cls-7" x2="5.11" transform="translate(5.905 10.221)"/>
+  <line id="Line_25" data-name="Line 25" class="cls-7" x2="5.11" transform="translate(12.151 10.221)"/>
+</svg>

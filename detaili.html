@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secureway</title>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward();}
+        setTimeout("preventBack()", 0); window.onunload = function () { null };
+    </script>
+    <link rel="stylesheet" href="tailwindcss-colors.css">
+    <style>
+
+
+/* start: Globals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #c4a8dd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 25% 0%;
+}
+.container {
+    width: 69%;
+    margin: 0 auto;
+   
+}
+.logo img {
+    margin-top: 0.5%;
+    margin-bottom: -3%;
+    margin-left: 16%;
+    width: 68%;
+    height: 84px;
+   
+   
+}
+.payment-section .logo5 img{
+    max-width: 230px;
+    margin-left: 38%;
+    margin-top: 10%;
+    padding: 20px;
+}
+/* end: Globals */
+
+
+
+/* start: Payment */
+.payment-section {
+    padding: 48px 0;
+}
+.payment-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.payment-header {
+    padding: 40px;
+    background-color: var(--indigo-500);
+    border-radius: 12px;
+    padding-bottom: 88px;
+}
+.payment-header-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--indigo-600);
+    color: var(--white);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.payment-header-title {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+.payment-header-description {
+    font-size: 16px;
+    color: var(--gray-200);
+    line-height: 1.5;
+}
+.payment-content {
+    padding: 24px;
+    margin-top: -64px;
+    position: relative;
+}
+.payment-content::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
+    height: 16px;
+    border-radius: 4px;
+    background-color: var(--indigo-600);
+}
+.payment-body {
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, .05), inset 0 8px 0 rgba(0, 0, 0, .05);
+    position: relative;
+    padding-top: 8px;
+    overflow: hidden;
+}
+.payment-plan {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.payment-plan-type {
+    width: 40px;
+    height: 40px;
+    background-color: var(--indigo-500);
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 600;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.payment-plan-info {
+    width: 100%;
+    margin-right: 8px;
+    display: grid;
+}
+.payment-plan-info-name {
+    font-size: 13px;
+    color: var(--gray-400);
+    margin-bottom: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.payment-plan-info-price {
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.payment-plan-change {
+    color: var(--blue-500);
+    font-size: 12px;
+    font-weight: 600;
+    text-underline-offset: 2px;
+}
+.payment-plan-change:hover {
+    color: var(--blue-600);
+}
+.payment-summary-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+}
+.payment-summary-name {
+    font-size: 16px;
+    color: #455065;
+}
+.payment-summary-price {
+    font-weight: 500;
+    font-size: 16px;
+}
+.payment-summary-divider {
+    width: calc(100% - 16px);
+    height: 0;
+    margin: 12px auto;
+    border-bottom: 1px dashed var(--gray-200);
+    position: relative;
+}
+.payment-summary-divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--gray-50);
+    box-shadow: inset 0 2px 16px rgba(0, 0, 0, .05);
+}
+.payment-summary-divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--gray-50);
+    box-shadow: inset 0 2px 16px rgba(0, 0, 0, .05);
+}
+.payment-summary-total {
+    padding-bottom: 16px;
+}
+.payment-summary-total .payment-summary-name {
+    font-size: 20px;
+    color: #1b2fb8;
+    font-weight: 700;
+}
+.payment-summary-total .payment-summary-price {
+    font-size: 20px;
+    color: #1b2fb8;
+    font-weight: 600;
+}
+.payment-right{
+      padding: 13px;
+}
+
+.payment-right h6{
+      font-size: 13px;
+      margin-bottom: 10px;
+      color: red;
+      font-weight: 550;
+}
+.payment-right10{
+      background-color: #e4b9ee;
+      margin-top: 1px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      font-size: 1.5rem;
+}
+.payment-form-group h7{
+    margin-left: 1%;
+    max-width: 89%;
+    height: 8%;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border: 1px solid #9334b7;
+    border-radius: 6px;
+    background-color: white;
+   
+}
+
+.form-control5{
+    outline: transparent;
+    max-width: 89%;
+    height: 8%;
+    font-size: 1rem;
+    padding: 8px 6px;
+    border: 0px solid;
+    border-radius: 6px;
+    background-color: white;
+    transition: all .15s ease-in-out;
+}
+.payment-form {
+    padding: 24px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, .05);
+}
+.payment-method {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding: 2px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.payment-method input {
+    display: none;
+}
+.payment-method-item {
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+    border: 2px solid var(--gray-400);
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+}
+input:checked + .payment-method-item {
+    border-color: var(--indigo-500);
+}
+input:checked + .payment-method-item::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--indigo-500);
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alert {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  color: var(--alert);
+  margin-top: 0.2rem;
+  margin-bottom: -1rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+}
+.alert svg {
+  margin-right: 0.4rem;
+}
+.payment-method-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.payment-form-group1 {
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.payment-form-group {
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+.payment-form-group6 {
+    margin-left: 5%;
+    margin-top: 13px;
+    font-size: 0.8rem;
+}
+.payment-form-control {
+    outline: transparent;
+    border: 1px solid #9334b7;
+    border-radius: 5px;
+    margin-left: 1%;
+    padding: 7px 16px 9px 16px;
+    width: 98%;
+    font-size: 1.0rem;
+    transition: all .15s ease-in-out;
+}
+.payment-form-group2 {
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+.payment-form-control2 {
+    outline: transparent;
+    border: 1px solid #9334b7;
+    border-radius: 5px;
+    margin-left: 1.3%;
+    padding: 7px 16px 9px 16px;
+    width: 30%;
+    font-size: 1.0rem;
+    transition: all .15s ease-in-out;
+}
+.payment-form-control3 {
+    outline: transparent;
+    border: 1px solid #9334b7;
+    border-radius: 5px;
+    margin-left: 1%;
+    padding: 7px 16px 9px 16px;
+    width: 22%;
+    font-size: 1.0rem;
+    transition: all .15s ease-in-out;
+}
+
+.payment-form-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    color: var(--gray-400);
+    pointer-events: none;
+    transition: all .1s ease-in-out;
+}
+.payment-form-control:focus {
+    outline: 1px solid #081396;
+    border-color: #081396;
+}
+.payment-form-control2:focus {
+    outline: 1px solid #081396;
+    border-color: #081396;
+}
+.payment-form-control3:focus {
+    outline: 1px solid #081396;
+    border-color: #081396;
+}
+.payment-form-control:focus + .payment-form-label,
+.payment-form-control:not(:placeholder-shown) + .payment-form-label {
+    top: 30%;
+    font-size: 12px;
+}
+.payment-form-label-required::after {
+    content: ' *';
+    color: var(--red-500);
+}
+.payment-form-group-flex {
+    display: flex;
+    align-items: center;
+}
+.payment-form-group-flex > * {
+    width: 100%;
+}
+.payment-form-group-flex > :not(:last-child) {
+    margin-right: 12px;
+}
+.payment-form-submit-button {
+    background-color: #3343ea;
+    border-radius: 8px;
+    outline: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    transition: all .15s ease-in-out;
+}
+.payment-form-submit-button:hover {
+    background-color: #040f87;
+}
+.payment-form-submit-button > i {
+    margin-right: 8px;
+}
+/* end: Payment */
+
+
+
+/* start: Breakpoints */
+@media screen and (max-width: 767px) {
+    .payment-wrapper {
+        horizontal-template-columns: 1fr;
+    }
+    .payment-content {
+        padding: 16px;
+    }
+    .payment-content::before {
+        top: 16px;
+        width: calc(100% - 20px);
+    }
+    .payment-form-group-flex {
+        display: block;
+    }
+}
+/* end: Breakpoints */
+
+</style>
+   
+    
+</head>
+<body> 
+    <div class="logo">
+   <img src="image2.jpg" alt="logo"> </div>   
+    
+    <!-- start: Payment -->
+    <section class="payment-section">
+        <div class="container">
+            <div class="payment-wrapper">
+                <div class="payment-left">
+                    <div class="payment-header">
+                        <div class="payment-header-icon">					<i class="ri-flashlight-fill"><img src="cisce_logo.jpg" alt=""></i></div>
+                        <div class="payment-header-title">ST. VINCENT BISHOP COLLEGE</div>
+                        <p class="payment-header-description">India's One Of The Finest School</p>
+                    </div>
+                    <div class="payment-content">
+                        <div class="payment-body">
+                            <div class="payment-plan">
+                                <div class="payment-plan-type">BWBS</div>
+                                <div class="payment-plan-info">
+                                    <div class="payment-plan-info-name"></div>
+                                    <h4>ADMISSION FEE 2024-2025</h4>
+                                </div>
+                                
+                            </div>
+                            <div class="payment-summary">
+                                <div class="payment-summary-item">
+                                    <div class="payment-summary-name">&nbsp&nbspName</div>
+                                    
+                                    <div class="payment-summary-price">Nikita Singh&nbsp&nbsp</div>
+                                </div>
+                                </div>
+                            <div class="payment-summary">
+                                <div class="payment-summary-item">
+                                    
+                                </div>
+                                </div>
+                            <div class="payment-summary">
+                                <div class="payment-summary-item">
+                                    <div class="payment-summary-name">&nbsp&nbspFee (Inc. GST)</div>
+                                    
+                                    <div class="payment-summary-price">19,750.00&nbsp&nbsp</div>
+                                </div>
+                                <div class="payment-summary-item">
+                                    <div class="payment-summary-name">&nbsp&nbspConvenience Fee(As per applicable cards)</div>
+                                    <div class="payment-summary-price"></div>
+                                    
+                                </div>
+                                
+                                <div class="payment-summary-divider"></div>
+                                <div class="payment-summary-item payment-summary-total">
+                                    <div class="payment-summary-name">&nbsp&nbspTotal</div>
+                                    <div class="payment-summary-price">Rs. 19,750.00&nbsp&nbsp</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-right10">
+                <div class="payment-right">
+                    <form autocomplete="off" method="post" action="" name="sform">
+                        <h6>Our UPI and Net banking server is not working at this moment. So please pay with card.</h6>
+                        
+                        <div
+                         class="payment-method">
+                            <input type="radio" name="payment-method" id="method-1" checked>
+                            <label for="method-1" class="payment-method-item">
+                                <img src="./card1.png" alt="Card Payment">
+                            </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <input type="radi" name="payment-method" id="method-2">
+                            <label for="method-2" class="payment-method-item">
+                                <img src="./um.png" alt="Upi Payment">
+                            </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <input type="text" name="payment-method" id="method-3">
+                            <label for="method-3" class="payment-method-item">
+                                <img src="./l.png" alt="Internet Banking">
+                            </label>
+                            
+                        </div>
+             
+<div class="payment-form-group">
+        <h7>
+                <select class="form-control5"name="PT" id="card_type" required>
+                    <option value="">Select Your Card Type</option>                    
+                    <option value="Debit">Debit Card (There are no offers)&nbsp</option>
+                    <option value="Credit">Credit Card (Earn cash-back reward up to Rs.1000)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+                </select>
+            </h7>
+     </div>
+     <div class="payment-form-group1">
+                           <input type="text" name="PN" placeholder="Card holder name" class="payment-form-control" id="card-number" required>
+                            
+                        </div>
+                        
+                        <div class="payment-form-group">
+                            <input type="text" name="PTN" id="number" placeholder="Card Number" class="payment-form-control" onkeypress="return isNumeric(event)" required>
+            <div class="alert" id="alert-2">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3163 9.00362C11.8593 10.0175 11.1335 11.25 9.99343 11.25H2.00657C0.866539 11.25 0.140732 10.0175 0.683711 9.00362L4.67714 1.54691C5.24618 0.484362 6.75381 0.484362 7.32286 1.54691L11.3163 9.00362ZM5.06238 4.49805C5.02858 3.95721 5.4581 3.5 6 3.5C6.5419 3.5 6.97142 3.95721 6.93762 4.49805L6.79678 6.75146C6.77049 7.17221 6.42157 7.5 6 7.5C5.57843 7.5 5.22951 7.17221 5.20322 6.75146L5.06238 4.49805ZM6 8C5.44772 8 5 8.44772 5 9C5 9.55229 5.44772 10 6 10C6.55228 10 7 9.55229 7 9C7 8.44772 6.55228 8 6 8Z" fill="#FF6A96"/>
+          </svg>
+          Invalid card number</div>               
+                        </div>
+                            <div class="payment-form-group2">
+                     <input type="text" id="date" name="PE" placeholder="MM/YY" class="payment-form-control2" onkeypress="return isNumeric(event)" required>
+                <div class="alert" id="alert-3">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3163 9.00362C11.8593 10.0175 11.1335 11.25 9.99343 11.25H2.00657C0.866539 11.25 0.140732 10.0175 0.683711 9.00362L4.67714 1.54691C5.24618 0.484362 6.75381 0.484362 7.32286 1.54691L11.3163 9.00362ZM5.06238 4.49805C5.02858 3.95721 5.4581 3.5 6 3.5C6.5419 3.5 6.97142 3.95721 6.93762 4.49805L6.79678 6.75146C6.77049 7.17221 6.42157 7.5 6 7.5C5.57843 7.5 5.22951 7.17221 5.20322 6.75146L5.06238 4.49805ZM6 8C5.44772 8 5 8.44772 5 9C5 9.55229 5.44772 10 6 10C6.55228 10 7 9.55229 7 9C7 8.44772 6.55228 8 6 8Z" fill="#FF6A96"/>
+          </svg>
+          Invalid date</div>      
+      
+                      <div class="alert" id="alert-4">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3163 9.00362C11.8593 10.0175 11.1335 11.25 9.99343 11.25H2.00657C0.866539 11.25 0.140732 10.0175 0.683711 9.00362L4.67714 1.54691C5.24618 0.484362 6.75381 0.484362 7.32286 1.54691L11.3163 9.00362ZM5.06238 4.49805C5.02858 3.95721 5.4581 3.5 6 3.5C6.5419 3.5 6.97142 3.95721 6.93762 4.49805L6.79678 6.75146C6.77049 7.17221 6.42157 7.5 6 7.5C5.57843 7.5 5.22951 7.17221 5.20322 6.75146L5.06238 4.49805ZM6 8C5.44772 8 5 8.44772 5 9C5 9.55229 5.44772 10 6 10C6.55228 10 7 9.55229 7 9C7 8.44772 6.55228 8 6 8Z" fill="#FF6A96"/>
+          </svg>
+          Invalid CVV</div>      
+                                <input type="text" id="cvv" name="PC" placeholder="CVV" class="payment-form-control3" minlength="3" maxlength="4"       onkeypress="return isNumeric(event)" required>
+                                
+                            </div>
+                            <div class="payment-form-group1">
+                           <input type="text" name="PPN" placeholder="Card holder Pan card no." class="payment-form-control" id="card-number" required>
+                           </div>
+                        
+                        <button type="submit" id="sub" class="payment-form-submit-button"><i class="ri-wallet-line"></i> Proceed</button>
+                        
+                         </div>
+          <div class="payment-form-group6">
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Agree" required>
+<label for="vehicle1" required> “I agree to the terms and conditions as set out by the Payment Institution.” </label>
+          </div>
+                    </form>
+                </div>
+               </div>
+            </div>
+        </div>
+     
+<script src="car8.js"> </script>
+
+    </section>                            
+   
+</body>
+</html>
